@@ -5,6 +5,7 @@ from dateutil.parser import parse
 from collections.abc import Iterable
 from datetime import datetime
 
+
 class DateTimeReminder(Iterable):
     """A reminder which has a specific date and time for being due"""
     def __init__(self, text: str, date: str, time: str = '9am'):
